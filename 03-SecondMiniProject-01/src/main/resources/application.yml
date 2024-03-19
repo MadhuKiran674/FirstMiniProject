@@ -1,0 +1,27 @@
+server:
+  port: 1030
+spring:
+  datasource:
+    password: manager
+    url: jdbc:mysql://localhost:3306/jrtp25
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: nxqq wdzr myzo ucwg
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: madhukiran67346@gmail.com
+  
+  
+    
+
+ 
